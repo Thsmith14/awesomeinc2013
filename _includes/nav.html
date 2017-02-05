@@ -12,11 +12,8 @@
         <div class="navbar-collapse collapse navbar-inner">
           
             <ul id="sddm" class="nav navbar-nav right-nav"> <!-- RIGHT ALIGNED NAVBAR -->
-                <li {% if page.path contains 'team' %} class="active" {% endif %} class="dropdown">    <!-- TEAM -->
-                    <a href="/team/" 
-                    onmouseover="mopen('m6')" 
-                    onmouseout="mclosetime()">Team
-                    </a>
+                <li {% if page.path contains 'team' %} class="active" {% endif %} >    <!-- TEAM -->
+                    <a href="/team/" >Team</a>
                 </li> 
 				<li {% if page.path contains 'about' %} class="active" {% endif %} class="dropdown">    <!-- ABOUT -->
                     <a href="/about/" 
